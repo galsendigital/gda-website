@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gda-website/static/css/main.083d5bad.css",
+    "main.js": "/gda-website/static/js/main.bac4aad9.js",
+    "static/js/787.77d751a2.chunk.js": "/gda-website/static/js/787.77d751a2.chunk.js",
+    "static/media/woman.png": "/gda-website/static/media/woman.069653be92a0e2acaa07.png",
+    "static/media/man.png": "/gda-website/static/media/man.73b2c749298e293153be.png",
+    "static/media/website_agripro.png": "/gda-website/static/media/website_agripro.1ffa3a636b3a07ddbcae.png",
+    "static/media/logo.svg": "/gda-website/static/media/logo.316b2616d033326b76dcd229ac9bd6e7.svg",
+    "static/media/wave.svg": "/gda-website/static/media/wave.074b72d89a961f54863262080035b350.svg",
+    "index.html": "/gda-website/index.html",
+    "main.083d5bad.css.map": "/gda-website/static/css/main.083d5bad.css.map",
+    "main.bac4aad9.js.map": "/gda-website/static/js/main.bac4aad9.js.map",
+    "787.77d751a2.chunk.js.map": "/gda-website/static/js/787.77d751a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.083d5bad.css",
+    "static/js/main.bac4aad9.js"
+  ]
+}
