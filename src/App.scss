@@ -5,17 +5,35 @@
 ::before {
   box-sizing: border-box;
 }
-html{
-  --main: #0b3c49;
-  --blue: #2fa3b0;
-  --red: #b33951;
+
+html {
+  --main : #0b3c49;
+  --blue : #2fa3b0;
+  --red  : #b33951;
   --mauve: #210124;
 }
+
 body {
   background-color: #f2f8f0;
   font-family     : 'Exo', sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width     : 10px;
+  background: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background   : var(--main);
+  border-radius: 250px;
+}
 
 .exo {
   font-family: 'Exo', sans-serif;
@@ -41,6 +59,7 @@ body {
 
   &:hover {
     transform: translateY(-2px);
+    background-color: var(--blue);
   }
 
   a {

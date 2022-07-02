@@ -19,7 +19,10 @@ const Hero = () => {
                     </p>
 
                     <button className="button-gda ml-0">
-                        <a href="#">
+                        <a className='inline lg:hidden' href="#">
+                            Appelez nous
+                        </a>
+                        <a className='hidden lg:inline' href="#">
                             Contactez nous
                         </a>
                     </button>
