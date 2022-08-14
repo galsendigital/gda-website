@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <section className="bg-primary text-white flex justify-center lg:justify-between items-center md:px-10 px-5 md:py-8 py-5">
-        <h2 className="md:text-2xl hidden lg:block text-sm uppercase font-bold">
+        <h2 className="md:text-2xl hidden lg:block text-sm uppercase font-bold 2xl:text-4xl">
           Rejoignez nous sur nos réseaux sociaux
         </h2>
         <div className="flex space-x-3">
@@ -82,7 +82,7 @@ const Footer = () => {
           </a>
         </div>
       </section>
-      <section className="flex flex-col items-center lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5">
+      <section className="flex flex-col items-center 2xl:text-4xl lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5">
         <p>© 2020 - {thisYear} Galsen Digital Agency. Tous Droits Réservés.</p>
         <p>Site Développé Et Déployé Par La GDA</p>
       </section>
