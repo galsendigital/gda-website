@@ -4,8 +4,8 @@ import Carousel from "./Carousel";
 
 const Avis = () => {
   return (
-    <section id="avis" className="w-11/12 outline mx-auto ">
-      <div className="mb-20">
+    <section id="avis" className="w-11/12 mx-auto ">
+      <div className="mb-10">
         <div className="flex mb-10">
           <span className="bg-barre p-0.5 mr-4"></span>
           <h2 className="font-second font-bold text-[28px] lg:text-5xl md:text-4xl text-gradient3 2xl:text-6xl">

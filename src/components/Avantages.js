@@ -18,7 +18,7 @@ const Avantages = () => {
         />
         <h2
           id="avantages"
-          className="font-second text-gradient3 text-3xl md:text-5xl 2xl:text-[5em] text-center px-5"
+          className="font-second text-gradient3 text-3xl md:text-5xl 2xl:text-[4em] text-center px-5"
         >
           IL VOUS PERMETTRA EGALEMENT
         </h2>
@@ -29,12 +29,12 @@ const Avantages = () => {
         />
       </section>
 
-      <section className="w-11/12 mx-auto flex flex-col flex-wrap lg:flex-row justify-center items-center gap-y-5 lg:gap-x-5 2xl:gap-x-10 px-5 md:px-10 md:mt-16 mt-10  md:mb-20 mb-10 outline">
-        <div className="bg-primary text-white max-w-maxwidth p-3 md:p-5 rounded-xl  shadow-md shadow-gray-700 2xl:max-w-[500px]">
-          <div className="flex items-center ">
-            <h3 className="md:text-lg 2xl:text-4xl text-md uppercase md:pb-7 pb-3">
-              D’avoir un <span className="text-tertiary">support</span> de{" "}
-              <span className="text-tertiary">communication</span> 24h/24 !
+      <section className="space-y-10 xl:space-y-0 mt-10 flex flex-col items-center w-11/12 mx-auto  xl:flex-row xl:justify-between lg:items-center mb-24 mt-14">
+        <div className="box">
+          <div className="flex justify-between mb-10">
+            <h3 className="font-bold xl:text-xl 2xl:text-3xl">
+              D’AVOIR UN <span className="text-tertiary">SUPPORT</span> DE{" "}
+              <span className="text-tertiary">COMMUNICATION</span> 24h/24 !
             </h3>
             <img
               src={megaphone}
@@ -42,47 +42,47 @@ const Avantages = () => {
               className="self-start 2xl:w-52"
             />
           </div>
-          <p className="md:text-lg 2xl:text-2xl text-md">
-            Contrairement à vous, votre site internet sera disponible tout le{" "}
-            <br className="hidden" />
+          <p className="lg:w-11/12 xl:text-xl 2xl:text-3xl">
+            Contrairement à vous, votre site internet sera disponible tout le
             temps pour vos clients.
           </p>
         </div>
 
-        <div className="bg-primary text-white max-w-maxwidth p-3 md:p-5  rounded-xl shadow-md shadow-gray-700 2xl:max-w-[500px]">
-          <div className="flex items-center">
-            <h3 className="md:text-lg 2xl:text-4xl text-md uppercase md:pb-7 pb-3">
+        <div className="box">
+          <div className="flex justify-between mb-10">
+            <h3 className="font-bold xl:text-xl  2xl:text-3xl">
               DE GAGNER ÉNORMÉMENT DE{" "}
               <span className="text-tertiary">TEMPS</span> !
             </h3>
             <img
               src={hourglass}
               alt="hourglass"
-              className="self-start 2xl:w-48"
+              className="self-start 2xl:w-40"
             />
           </div>
-          <p className="md:text-lg text-md 2xl:text-2xl">
+          <p className="xl:text-xl 2xl:text-3xl">
             Votre site internet vous permettra d’informatiser vos tâches
             manuelles en les automatisant !
           </p>
         </div>
 
-        <div className="bg-primary text-white max-w-maxwidth  p-3 md:p-5  rounded-xl shadow-md shadow-gray-700 2xl:max-w-[500px]">
-          <div className="flex items-center">
-            <h3 className="md:text-lg text-md 2xl:text-4xl uppercase md:pb-7 pb-3">
+        <div className="box">
+          <div className="flex justify-between mb-10">
+            <h3 className="font-bold xl:text-xl  2xl:text-3xl">
               DE VOUS OUVRIR À DE NOUVELLES{" "}
               <span className="text-tertiary">PERSPECTIVES</span> !
             </h3>
-            <img src={rocket} alt="megaphone" className="self-start 2xl:w-48" />
+            <img src={rocket} alt="rocket" className="self-start 2xl:w-52" />
           </div>
-          <p className="md:text-lg text-md 2xl:text-2xl">
+          <p className="lg:w-11/12 xl:text-xl 2xl:text-3xl 2xl:">
             Quoi de mieux qu’internet et l’infinité du web pour s’ouvrir à de
             nouveaux marchés ?
           </p>
         </div>
       </section>
+
       <section
-        className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 lg:mb-20 px-5 md:px-10"
+        className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 mb-20 lg:mb-20 px-5 md:px-10"
         style={{ backgroundImage: `url(${waveband})` }}
       >
         <h2 className="md:text-3xl text-2xl text-center font-bold text-white  font-second mb-5 2xl:text-6xl 2xl:pb-12">

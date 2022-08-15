@@ -12,7 +12,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <section>
-      <div className="flex w-full z-10 mx-auto fixed top-0 bg-white">
+      <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
         <div className="flex justify-between items-center w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <a href="/">
@@ -52,7 +52,13 @@ const Header = () => {
           </nav>
 
           <div>
-            <button className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md hidden lg:block 2xl:text-3xl">
+            <button
+              onClick={() =>
+                (window.location.href =
+                  "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20")
+              }
+              className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md hidden lg:block 2xl:text-3xl"
+            >
               CONTACTEZ-NOUS{" "}
             </button>
           </div>
@@ -60,7 +66,7 @@ const Header = () => {
         <nav
           className={`${
             isNavOpen
-              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-24 px-10  top-0 w-[100vw] sm:w-[50vw] z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
+              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-24 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
               : "disableNav flex items-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-300"
           }`}
         >
@@ -86,7 +92,6 @@ const Header = () => {
             <li>
               <a
                 href="#accueil"
-                className="hover:text-secondary duration-150"
                 onClick={() => {
                   setIsNavOpen(false);
                 }}
@@ -97,7 +102,6 @@ const Header = () => {
             <li>
               <a
                 href="#avantages"
-                className="hover:text-secondary duration-150"
                 onClick={() => {
                   setIsNavOpen(false);
                 }}
@@ -108,7 +112,6 @@ const Header = () => {
             <li>
               <a
                 href="#avis"
-                className="hover:text-secondary duration-150"
                 onClick={() => {
                   setIsNavOpen(false);
                 }}
@@ -119,7 +122,6 @@ const Header = () => {
             <li>
               <a
                 href="#services"
-                className="hover:text-secondary duration-150"
                 onClick={() => {
                   setIsNavOpen(false);
                 }}
@@ -155,7 +157,13 @@ const Header = () => {
               moderne adapté à votre cible.
             </p>
             <div>
-              <button className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md mt-5 lg:block 2xl:text-3xl">
+              <button
+                onClick={() =>
+                  (window.location.href =
+                    "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20")
+                }
+                className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md mt-5 lg:block 2xl:text-3xl"
+              >
                 CONTACTEZ-NOUS{" "}
               </button>
             </div>
@@ -170,7 +178,7 @@ const Header = () => {
         <div className="flex justify-between flex-col md:flex-row gap-y-4 w-11/12 mx-auto">
           <div className="flex h-fit w-2/4 md:1/4">
             <span className="h-2/2 bg-barre p-0.5 mr-4"></span>
-            <h2 className="font-second font-bold text-xl text-white lg:text-3xl h-fit xl:w-2/4 2xl:text-5xl 2xl:w-5/12">
+            <h2 className="font-second font-bold text-md text-white lg:text-3xl h-fit sm:max-w-[150px] md:max-w-[160px] lg:max-w-[220px] xl:max-w-[300px] 2xl:text-5xl 2xl:max-w-[400px]">
               GALSEN DIGITAL AGENCY
             </h2>
           </div>
@@ -183,7 +191,7 @@ const Header = () => {
         </div>
 
         <div className="flex flex-col gap-y-5 md:justify-between items-center mt-7 md:mt-20 lg:flex-row lg:w-11/12 mx-auto">
-          <div className="max-w-maxwidth lg:max-w-md 2xl:max-w-full relative overflow-hidden">
+          <div className="max-w-maxwidth lg:max-w-md 2xl:max-w-full relative">
             <img
               src={homme}
               alt="old man struggling with his computer"

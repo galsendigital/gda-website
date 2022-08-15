@@ -7,7 +7,10 @@ import OtherServices from "./components/OtherServices";
 
 const App = () => {
   return (
-    <div className="overflow-hidden font-first pt-28 2xl:pt-40 outline">
+    <div
+      id="accueil"
+      className="overflow-hidden font-first pt-28 2xl:pt-40  bg-background"
+    >
       <Header />
       <Avantages />
       <Avis />

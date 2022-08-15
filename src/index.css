@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700&family=Ubuntu:wght@700&family=Yantramanav:wght@700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box {
+  @apply bg-primary text-white rounded p-7 shadow-md shadow-gray-500 w-full max-w-[320px] lg:max-w-[340px] xl:max-w-[380px] 2xl:max-w-[30%];
+}
+
+.testimonial-box {
+  @apply w-10/12 xl:w-8/12 mx-auto flex flex-col justify-center;
+}
+
+.testimonial {
+  @apply text-xs md:text-xl 2xl:text-4xl  bg-primary mb-5 md:mb-7 mb-3 rounded-xl text-white text-center font-third;
+}
+
+.group {
+  @apply text-right md:text-xl 2xl:text-4xl text-xs flex flex-col mb-10;
+}
+
+.underline {
+  @apply md:w-20 w-14 h-1 bg-barre mt-0 p-0.5 self-end;
+}

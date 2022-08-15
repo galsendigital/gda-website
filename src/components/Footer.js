@@ -4,8 +4,8 @@ const Footer = () => {
   const thisYear = new Date().toISOString().split("T")[0].split("-")[0];
 
   return (
-    <div>
-      <section className="bg-primary text-white flex justify-center lg:justify-between items-center md:px-10 px-5 md:py-8 py-5">
+    <section>
+      <div className="bg-primary text-white flex justify-center lg:justify-between items-center md:px-10 px-5 md:py-8 py-5">
         <h2 className="md:text-2xl hidden lg:block text-sm uppercase font-bold 2xl:text-4xl">
           Rejoignez nous sur nos réseaux sociaux
         </h2>
@@ -81,12 +81,12 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-      </section>
-      <section className="flex flex-col items-center 2xl:text-4xl lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5">
+      </div>
+      <div className="flex flex-col items-center text-center 2xl:text-4xl lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5 space-y-4">
         <p>© 2020 - {thisYear} Galsen Digital Agency. Tous Droits Réservés.</p>
         <p>Site Développé Et Déployé Par La GDA</p>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

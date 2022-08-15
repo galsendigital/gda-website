@@ -25,6 +25,9 @@ module.exports = {
       maxWidth: {
         maxwidth: "366px",
       },
+      screens: {
+        wd: "1300px",
+      },
     },
   },
   plugins: [],
