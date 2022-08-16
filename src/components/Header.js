@@ -20,31 +20,22 @@ const Header = () => {
             </a>
             <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-3xl">
               <li>
-                <a
-                  href="#accueil"
-                  className="hover:text-secondary duration-150"
-                >
+                <a href="#accueil" className="links">
                   Accueil
                 </a>
               </li>
               <li>
-                <a
-                  href="#avantages"
-                  className="hover:text-secondary duration-150"
-                >
+                <a href="#avantages" className="links">
                   Avantages
                 </a>
               </li>
               <li>
-                <a href="#avis" className="hover:text-secondary duration-150">
+                <a href="#avis" className="links">
                   Ce qu'ils pensent
                 </a>
               </li>
               <li>
-                <a
-                  href="#services"
-                  className="hover:text-secondary duration-150"
-                >
+                <a href="#services" className="links">
                   Autres services
                 </a>
               </li>
@@ -54,10 +45,13 @@ const Header = () => {
           <div>
             <button
               onClick={() =>
-                (window.location.href =
-                  "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20")
+                window.open(
+                  "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
               }
-              className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md hidden lg:block 2xl:text-3xl"
+              className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-3xl shadow-md shadow-gray-400"
             >
               CONTACTEZ-NOUS{" "}
             </button>
@@ -67,7 +61,7 @@ const Header = () => {
           className={`${
             isNavOpen
               ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-24 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
-              : "disableNav flex items-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-300"
+              : "disableNav flex items-center sm:justify-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-700"
           }`}
         >
           <div
@@ -146,7 +140,7 @@ const Header = () => {
         className="bg-no-repeat bg-cover md:bg-center w-full"
         style={{ backgroundImage: `url(${wave})` }}
       >
-        <div className="flex flex-col lg:flex-row uppercase lg:h-[100vh] lg:items-center  justify-between w-11/12 mx-auto">
+        <div className="flex flex-col lg:flex-row uppercase lg:h-[90vh] lg:items-center  justify-between w-11/12 mx-auto">
           <div className="lg:w-6/12 lg:mt-10 w-12/12">
             <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-6xl">
               Soigner l'image des entreprises sénégalaises sur le web
@@ -159,10 +153,13 @@ const Header = () => {
             <div>
               <button
                 onClick={() =>
-                  (window.location.href =
-                    "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20")
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
                 }
-                className="bg-primary text-white font-bold px-5 py-3 rounded-xl hover:bg-secondary duration-200 lg:text-md mt-5 lg:block 2xl:text-3xl"
+                className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-3xl shadow-md shadow-gray-400"
               >
                 CONTACTEZ-NOUS{" "}
               </button>
@@ -183,7 +180,7 @@ const Header = () => {
             </h2>
           </div>
           <div className="flex flex-col items-end">
-            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-6xl self-end">
+            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-6xl self-end font-bold text-shadow-custom">
               L’ AGENCE DIGITALE CRÉATIVE ET CENTRÉE CLIENT
             </h2>
             <span className="lg:w-32 2xl:w-52 w-20 h-1 bg-barre mt-2 p-0.5  sm:self-end"></span>
@@ -197,7 +194,7 @@ const Header = () => {
               alt="old man struggling with his computer"
               className="2xl:h-[80vh]"
             />
-            <div className="absolute w-full bg-gradient-to-t from-gradient3 via-gradient-4 to-gradient-5 h-[70%] w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
+            <div className="absolute w-full bg-gradient-to-t from-gradient3 via-gradient-4 to-gradient-5 h-full w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
             <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-6xl">
               Vous souhaitez gagner <br /> en{" "}
               <span className="text-barre">visibilité</span> sur le web ?
@@ -209,7 +206,7 @@ const Header = () => {
               alt="happy business woman"
               className="2xl:h-[80vh]"
             />
-            <div className="absolute w-full bg-gradient-to-t from-gradient3 via-gradient6 to-gradient7 h-[70%] w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
+            <div className="absolute w-full bg-gradient-to-t from-gradient8 via-gradient6 to-gradient7 h-full w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
             <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-6xl">
               Bénéficiez d’un <span className="text-secondary">site web</span>{" "}
               <br />

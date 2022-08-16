@@ -89,7 +89,16 @@ const Avantages = () => {
           NOUS SOMMES LÀ POUR VOUS ALORS N’HÉSITEZ PLUS !
         </h2>
         <div className="flex items-center">
-          <button className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-2xl text-sm 2xl:text-5xl hover:scale-105  duration-200 2xl:py-5">
+          <button
+            onClick={() =>
+              window.open(
+                "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+            className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-2xl text-sm 2xl:text-5xl hover:scale-105  duration-500 2xl:py-5  shadow-md shadow-gray-900"
+          >
             CONTACTEZ-NOUS
           </button>
         </div>

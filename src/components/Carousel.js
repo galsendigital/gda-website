@@ -14,7 +14,7 @@ export default class Slider extends Component {
         interval={4000}
         useKeyboardArrows={true}
         infiniteLoop={true}
-        className="bg-primary text-white py-3 xl:py-5 rounded-xl"
+        className="bg-primary text-white py-3 rounded-xl"
       >
         <div className="testimonial-box">
           <p className="testimonial">

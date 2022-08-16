@@ -16,6 +16,7 @@ module.exports = {
         gradient5: "rgba(33, 1, 36, 0)",
         gradient6: "rgba(1, 36, 7, 0.47)",
         gradient7: "rgba(10, 36, 1, 0)",
+        gradient8: "#01241c",
       },
       fontFamily: {
         first: ["Exo"],
@@ -28,7 +29,10 @@ module.exports = {
       screens: {
         wd: "1300px",
       },
+      textShadow: {
+        custom: "-3px 3px 2px rgba(0,0,0,0.38)",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-textshadow")],
 };
