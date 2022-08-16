@@ -15,10 +15,10 @@ const Header = () => {
       <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
-            <a href="/">
-              <img src={logo} alt="logo" className="2xl:w-28" />
-            </a>
-            <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-3xl">
+            <div>
+              <img src={logo} alt="logo" className="md:w-18" />
+            </div>
+            <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-2xl">
               <li>
                 <a href="#accueil" className="links">
                   Accueil
@@ -51,7 +51,7 @@ const Header = () => {
                   "noopener,noreferrer"
                 )
               }
-              className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-3xl shadow-md shadow-gray-400"
+              className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-2xl shadow-md shadow-gray-400"
             >
               CONTACTEZ-NOUS{" "}
             </button>
@@ -142,10 +142,10 @@ const Header = () => {
       >
         <div className="flex flex-col lg:flex-row uppercase lg:h-[90vh] lg:items-center  justify-between w-11/12 mx-auto -mb-4">
           <div className="lg:w-6/12 lg:mt-10 w-12/12">
-            <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-6xl">
+            <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-5xl">
               Soigner l'image des entreprises sénégalaises sur le web
             </h1>
-            <p className="text-sm  w-full md:mb-7 md:text-lg 2xl:text-4xl">
+            <p className="text-sm  w-full md:mb-7 md:text-lg 2xl:text-2xl">
               NOUS AIDONS votre ENTREPRISE À ACQUÉRIR UNE MEILLEURE VISIBILITÉ
               ET À SOIGNER SA COMMUNICATION SUR interNET grace à un site web
               moderne adapté à votre cible.
@@ -159,14 +159,14 @@ const Header = () => {
                     "noopener,noreferrer"
                   )
                 }
-                className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-3xl shadow-md shadow-gray-400"
+                className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-2xl shadow-md shadow-gray-900"
               >
                 CONTACTEZ-NOUS{" "}
               </button>
             </div>
           </div>
           <div className="self-center">
-            <img src={ordinateur} alt="ordinateur" className="2xl:w-[1000px]" />
+            <img src={ordinateur} alt="ordinateur" className="2xl:w-[600px]" />
           </div>
         </div>
       </div>
@@ -180,10 +180,10 @@ const Header = () => {
             </h2>
           </div>
           <div className="flex flex-col items-end">
-            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-6xl self-end text-shadow-custom">
+            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-5xl self-end text-shadow-custom">
               L’ AGENCE DIGITALE CRÉATIVE ET CENTRÉE CLIENT
             </h2>
-            <span className="lg:w-32 2xl:w-52 w-20 h-1 bg-barre mt-2 p-0.5  sm:self-end"></span>
+            <span className="lg:w-32 2xl:w-36 w-20 h-1 bg-barre mt-2 p-0.5  sm:self-end"></span>
           </div>
         </div>
 
@@ -195,7 +195,7 @@ const Header = () => {
               className="2xl:h-[80vh]"
             />
             <div className="absolute w-full bg-gradient-to-t from-gradient3 via-gradient-4 to-gradient-5 h-full w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
-            <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-6xl">
+            <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-5xl">
               Vous souhaitez gagner <br /> en{" "}
               <span className="text-barre">visibilité</span> sur le web ?
             </p>
@@ -207,7 +207,7 @@ const Header = () => {
               className="2xl:h-[80vh]"
             />
             <div className="absolute w-full bg-gradient-to-t from-gradient8 via-gradient6 to-gradient7 h-full w-[98.5%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-lg"></div>
-            <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-6xl">
+            <p className="w-full md:text-3xl lg:text-4xl text-2xl font-bold absolute bottom-0 text-white text-center mb-10 2xl:text-5xl">
               Bénéficiez d’un <span className="text-secondary">site web</span>{" "}
               <br />
               adapté à vos besoins !

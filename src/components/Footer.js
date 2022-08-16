@@ -4,7 +4,20 @@ const Footer = () => {
   const thisYear = new Date().toISOString().split("T")[0].split("-")[0];
 
   return (
-    <section>
+    <section className="relative">
+      <a
+        id="btn"
+        href="#accueil"
+        className="absolute left-[50%] transform translate-x-[-50%] bottom-2 flex flex-col items-center text-white"
+      >
+        <svg
+          viewBox="0 0 300.003 300.003"
+          className="w-7 rotate-90"
+          fill="white"
+        >
+          <path d="M150 0C67.159 0 .001 67.159.001 150c0 82.838 67.157 150.003 149.997 150.003S300.002 232.838 300.002 150C300.002 67.159 232.839 0 150 0zm39.226 218.202a13.968 13.968 0 0 1-9.902 4.101 13.955 13.955 0 0 1-9.902-4.103l-56.295-56.292a13.898 13.898 0 0 1-2.368-1.886c-2.796-2.799-4.145-6.479-4.077-10.144-.065-3.667 1.281-7.35 4.077-10.146a14.146 14.146 0 0 1 2.368-1.886l56.043-56.043c5.47-5.465 14.34-5.467 19.808.003 5.47 5.467 5.47 14.335 0 19.808l-48.265 48.265 48.514 48.516c5.468 5.469 5.468 14.337-.001 19.807z" />
+        </svg>
+      </a>
       <div className="bg-primary text-white flex flex-col justify-center lg:justify-between lg:flex-row items-center md:px-10 px-5 md:py-8 py-5">
         <h2 className="md:text-2xl pb-4  lg:pb-0 text-center text-sm uppercase font-bold 2xl:text-4xl">
           Rejoignez nous sur nos réseaux sociaux
@@ -57,9 +70,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center text-center 2xl:text-4xl lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5 space-y-4">
+      <div className="flex flex-col items-center text-center 2xl:text-4xl lg:justify-between lg:flex-row bg-tertiary text-white md:text-xl text-xs md:px-10 md:py-8 px-5 py-5  space-y-4">
         <p>© 2020 - {thisYear} Galsen Digital Agency. Tous Droits Réservés.</p>
-        <p>Site Développé Et Déployé Par La GDA</p>
+        <p className="pb-7">Site Développé Et Déployé Par La GDA</p>
       </div>
     </section>
   );

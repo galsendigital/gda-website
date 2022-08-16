@@ -18,7 +18,7 @@ const Avantages = () => {
         />
         <h2
           id="avantages"
-          className="font-second text-gradient3 text-3xl md:text-5xl 2xl:text-[4em] text-center px-5"
+          className="font-second text-gradient3 text-3xl md:text-5xl 2xl:text-[4em] 2xl:px-20 text-center px-5"
         >
           IL VOUS PERMETTRA EGALEMENT
         </h2>
@@ -42,7 +42,7 @@ const Avantages = () => {
               className="self-start 2xl:w-52"
             />
           </div>
-          <p className="lg:w-11/12 xl:text-xl 2xl:text-3xl">
+          <p className="lg:w-11/12 xl:text-xl 2xl:text-2xl">
             Contrairement à vous, votre site internet sera disponible tout le
             temps pour vos clients.
           </p>
@@ -60,7 +60,7 @@ const Avantages = () => {
               className="self-start 2xl:w-40"
             />
           </div>
-          <p className="xl:text-xl 2xl:text-3xl">
+          <p className="xl:text-xl 2xl:text-2xl">
             Votre site internet vous permettra d’informatiser vos tâches
             manuelles en les automatisant !
           </p>
@@ -74,7 +74,7 @@ const Avantages = () => {
             </h3>
             <img src={rocket} alt="rocket" className="self-start 2xl:w-52" />
           </div>
-          <p className="lg:w-11/12 xl:text-xl 2xl:text-3xl 2xl:">
+          <p className="lg:w-11/12 xl:text-xl 2xl:text-2xl">
             Quoi de mieux qu’internet et l’infinité du web pour s’ouvrir à de
             nouveaux marchés ?
           </p>
@@ -85,7 +85,7 @@ const Avantages = () => {
         className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 mb-20 lg:mb-20 px-5 md:px-10"
         style={{ backgroundImage: `url(${waveband})` }}
       >
-        <h2 className="md:text-3xl text-2xl text-center font-bold text-white  font-second mb-5 2xl:text-6xl 2xl:pb-12">
+        <h2 className="md:text-3xl text-2xl text-center font-bold text-white  font-second mb-5 2xl:text-5xl 2xl:mb-12">
           NOUS SOMMES LÀ POUR VOUS ALORS N’HÉSITEZ PLUS !
         </h2>
         <div className="flex items-center">
@@ -97,7 +97,7 @@ const Avantages = () => {
                 "noopener,noreferrer"
               )
             }
-            className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-2xl text-sm 2xl:text-5xl hover:scale-105  duration-500 2xl:py-5  shadow-md shadow-gray-900"
+            className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-2xl text-sm 2xl:text-4xl hover:scale-105  duration-500 2xl:py-5  shadow-md shadow-gray-900"
           >
             CONTACTEZ-NOUS
           </button>
