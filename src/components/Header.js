@@ -69,7 +69,7 @@ const Header = () => {
             onClick={() => setIsNavOpen(false)}
           >
             <svg
-              className="h-12 w-12 text-background mr-3"
+              className="h-12 w-12 text-background mr-3 cursor-pointer"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -127,7 +127,7 @@ const Header = () => {
         </nav>
 
         <div
-          className="flex flex-col space-y-1.5 lg:hidden self-center relative right-[5%]"
+          className="flex flex-col space-y-1.5 lg:hidden self-center relative right-[5%] cursor-pointer"
           onClick={() => setIsNavOpen((prev) => !prev)}
         >
           <span className="block h-1 w-8 bg-primary"></span>
