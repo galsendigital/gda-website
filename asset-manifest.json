@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gda-website/static/css/main.fd2e1ee4.css",
-    "main.js": "/gda-website/static/js/main.f0ea5882.js",
+    "main.css": "/gda-website/static/css/main.be852e38.css",
+    "main.js": "/gda-website/static/js/main.d466fb7a.js",
     "static/media/femme.png": "/gda-website/static/media/femme.069653be92a0e2acaa07.png",
     "static/media/homme.png": "/gda-website/static/media/homme.73b2c749298e293153be.png",
     "static/media/ordinateur.png": "/gda-website/static/media/ordinateur.20ad43b4a95c0953cf94.png",
@@ -9,11 +9,11 @@
     "static/media/dotted-line.svg": "/gda-website/static/media/dotted-line.cceba90fadb819d1976e178fde7ad5a5.svg",
     "static/media/wave.svg": "/gda-website/static/media/wave.4aa219cd8c82706d912b50b91ac1e4ae.svg",
     "index.html": "/gda-website/index.html",
-    "main.fd2e1ee4.css.map": "/gda-website/static/css/main.fd2e1ee4.css.map",
-    "main.f0ea5882.js.map": "/gda-website/static/js/main.f0ea5882.js.map"
+    "main.be852e38.css.map": "/gda-website/static/css/main.be852e38.css.map",
+    "main.d466fb7a.js.map": "/gda-website/static/js/main.d466fb7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd2e1ee4.css",
-    "static/js/main.f0ea5882.js"
+    "static/css/main.be852e38.css",
+    "static/js/main.d466fb7a.js"
   ]
 }
