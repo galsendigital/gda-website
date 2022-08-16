@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <a href="/">
-              <img src={logo} alt="logo" className="2xl:w-28" />
+              <img src={logo} alt="logo" className="w-12 2xl:w-28" />
             </a>
             <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-3xl">
               <li>
@@ -180,7 +180,7 @@ const Header = () => {
             </h2>
           </div>
           <div className="flex flex-col items-end">
-            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-6xl self-end font-bold text-shadow-custom">
+            <h2 className="font-first text-xl sm:text-3xl md:text-right text-right text-white leading-tight lg:text-4xl 2xl:text-6xl self-end text-shadow-custom">
               L’ AGENCE DIGITALE CRÉATIVE ET CENTRÉE CLIENT
             </h2>
             <span className="lg:w-32 2xl:w-52 w-20 h-1 bg-barre mt-2 p-0.5  sm:self-end"></span>
