@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo-gda.svg";
 import wave from "../assets/wave.svg";
 import ordinateur from "../assets/ordinateur.png";
 import homme from "../assets/homme.png";
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <a href="/">
-              <img src={logo} alt="logo" className="w-12 2xl:w-28" />
+              <img src={logo} alt="logo" className="md:w-18 2xl:w-28" />
             </a>
             <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-3xl">
               <li>
