@@ -15,9 +15,9 @@ const Header = () => {
       <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
-            <div>
+            <a href="/">
               <img src={logo} alt="logo" className="md:w-18 2xl:w-28" />
-            </div>
+            </a>
             <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-3xl">
               <li>
                 <a href="#accueil" className="links">
