@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <section>
       <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
-        <div className="flex justify-between items-center w-11/12 mx-auto py-4">
+        <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <a href="/">
               <img src={logo} alt="logo" className="2xl:w-28" />
@@ -127,7 +127,7 @@ const Header = () => {
         </nav>
 
         <div
-          className="flex flex-col space-y-1.5 lg:hidden self-center relative right-[2%]"
+          className="flex flex-col space-y-1.5 lg:hidden self-center relative right-[5%]"
           onClick={() => setIsNavOpen((prev) => !prev)}
         >
           <span className="block h-1 w-8 bg-primary"></span>
@@ -140,7 +140,7 @@ const Header = () => {
         className="bg-no-repeat bg-cover md:bg-center w-full"
         style={{ backgroundImage: `url(${wave})` }}
       >
-        <div className="flex flex-col lg:flex-row uppercase lg:h-[90vh] lg:items-center  justify-between w-11/12 mx-auto">
+        <div className="flex flex-col lg:flex-row uppercase lg:h-[90vh] lg:items-center  justify-between w-11/12 mx-auto -mb-4">
           <div className="lg:w-6/12 lg:mt-10 w-12/12">
             <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-6xl">
               Soigner l'image des entreprises sénégalaises sur le web
