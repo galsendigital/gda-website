@@ -85,7 +85,7 @@ const Avantages = () => {
         className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 mb-20 lg:mb-20 px-5 md:px-10"
         style={{ backgroundImage: `url(${waveband})` }}
       >
-        <h2 className="md:text-3xl text-2xl text-center font-bold text-white  font-second mb-5 2xl:text-5xl 2xl:mb-12">
+        <h2 className="md:text-2xl text-xl text-center font-bold text-white  font-second mb-3 2xl:text-5xl 2xl:mb-12">
           NOUS SOMMES LÀ POUR VOUS ALORS N’HÉSITEZ PLUS !
         </h2>
         <div className="flex items-center">

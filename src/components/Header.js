@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <section>
       <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
-        <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-4">
+        <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-1">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <div>
               <img src={logo} alt="logo" className="md:w-18" />
@@ -60,12 +60,12 @@ const Header = () => {
         <nav
           className={`${
             isNavOpen
-              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-24 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
+              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-0 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
               : "disableNav flex items-center sm:justify-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-700"
           }`}
         >
           <div
-            className="absolute -top-3 right-16 px-8 py-8 "
+            className="absolute top-3 right-[2%]"
             onClick={() => setIsNavOpen(false)}
           >
             <svg
@@ -140,7 +140,7 @@ const Header = () => {
         className="bg-no-repeat bg-cover md:bg-center w-full"
         style={{ backgroundImage: `url(${wave})` }}
       >
-        <div className="flex flex-col lg:flex-row uppercase lg:h-[90vh] lg:items-center  justify-between w-11/12 mx-auto -mb-4">
+        <div className="flex flex-col lg:flex-row uppercase lg:items-start  lg:justify-between w-11/12 mx-auto -mb-4">
           <div className="lg:w-6/12 lg:mt-10 w-12/12">
             <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-5xl">
               Soigner l'image des entreprises sénégalaises sur le web
@@ -171,7 +171,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-gradient1 to-gradient2 h-auto w-full">
+      <div className="bg-gradient-to-b from-gradient1 to-gradient2 h-auto w-full mt-3 pt-10">
         <div className="flex justify-between flex-col md:flex-row gap-y-4 w-11/12 mx-auto">
           <div className="flex h-fit w-2/4 md:1/4">
             <span className="h-2/2 bg-barre p-0.5 mr-4"></span>

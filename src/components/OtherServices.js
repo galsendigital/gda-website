@@ -10,7 +10,7 @@ const OtherServices = () => {
   return (
     <section id="services">
       <div className="flex flex-col items-center bg-gradient3 text-white md:px-10 px-5 md:py-14 py-7">
-        <h2 className="font-bold md:text-4xl 2xl:text-5xl text-2xl text-center font-second pb-10">
+        <h2 className="font-bold md:text-4xl 2xl:text-5xl text-xl text-center font-second pb-10">
           EN PLUS DE LA CRÉATION DE SITES / APPLICATIONS WEB,
           <br /> L’AGENCE PROPOSE ÉGALEMENT DES SERVICES DE :
         </h2>
