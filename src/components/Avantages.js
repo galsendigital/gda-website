@@ -9,8 +9,8 @@ import waveband from "../assets/wave-band.png";
 
 const Avantages = () => {
   return (
-    <div id="avantages">
-      <section className="py-10 md:pt-20 flex items-center justify-center w-11/12 mx-auto">
+    <section id="avantages">
+      <div className="py-10 md:pt-20 flex items-center justify-center w-11/12 xl:w-4/5 mx-auto">
         <img
           src={dotted}
           alt="dotted-line"
@@ -18,7 +18,7 @@ const Avantages = () => {
         />
         <h2
           id="avantages"
-          className="font-second text-gradient3 text-3xl md:text-5xl 2xl:text-[4em] 2xl:px-20 text-center px-5"
+          className="font-second text-gradient3 text-3xl md:text-4xl 2xl:text-[3.5em] 2xl:px-20 text-center px-5"
         >
           IL VOUS PERMETTRA EGALEMENT
         </h2>
@@ -27,12 +27,12 @@ const Avantages = () => {
           alt="dotted line"
           className="relative bottom-16 hidden xl:block"
         />
-      </section>
+      </div>
 
-      <section className="space-y-10 xl:space-y-0  flex flex-col items-center w-11/12 mx-auto  xl:flex-row xl:justify-between lg:items-center pb-">
+      <div className="space-y-10 xl:space-y-0  flex flex-col items-center w-11/12 xl:w-4/5 mx-auto  xl:flex-row xl:justify-between lg:items-center pt-3">
         <div className="box">
           <div className="flex justify-between mb-10">
-            <h3 className="font-bold xl:text-xl 2xl:text-3xl">
+            <h3 className="font-bold xl:text-md 2xl:text-3xl">
               D’AVOIR UN <span className="text-tertiary">SUPPORT</span> DE{" "}
               <span className="text-tertiary">COMMUNICATION</span> 24h/24 !
             </h3>
@@ -42,7 +42,7 @@ const Avantages = () => {
               className="self-start 2xl:w-52"
             />
           </div>
-          <p className="lg:w-11/12 xl:text-xl 2xl:text-2xl">
+          <p className="lg:w-11/12 xl:text-md 2xl:text-2xl 2xl:w-10/12">
             Contrairement à vous, votre site internet sera disponible tout le
             temps pour vos clients.
           </p>
@@ -50,7 +50,7 @@ const Avantages = () => {
 
         <div className="box">
           <div className="flex justify-between mb-10">
-            <h3 className="font-bold xl:text-xl  2xl:text-3xl">
+            <h3 className="font-bold xl:text-md  2xl:text-3xl">
               DE GAGNER ÉNORMÉMENT DE{" "}
               <span className="text-tertiary">TEMPS</span> !
             </h3>
@@ -60,7 +60,7 @@ const Avantages = () => {
               className="self-start 2xl:w-40"
             />
           </div>
-          <p className="xl:text-xl 2xl:text-2xl">
+          <p className="xl:text-md 2xl:text-2xl 2xl:w-10/12">
             Votre site internet vous permettra d’informatiser vos tâches
             manuelles en les automatisant !
           </p>
@@ -68,42 +68,44 @@ const Avantages = () => {
 
         <div className="box">
           <div className="flex justify-between mb-10">
-            <h3 className="font-bold xl:text-xl  2xl:text-3xl">
+            <h3 className="font-bold xl:text-md  2xl:text-3xl">
               DE VOUS OUVRIR À DE NOUVELLES{" "}
               <span className="text-tertiary">PERSPECTIVES</span> !
             </h3>
             <img src={rocket} alt="rocket" className="self-start 2xl:w-52" />
           </div>
-          <p className="lg:w-11/12 xl:text-xl 2xl:text-2xl">
+          <p className="lg:w-11/12 xl:text-md 2xl:text-2xl 2xl:w-9/12">
             Quoi de mieux qu’internet et l’infinité du web pour s’ouvrir à de
             nouveaux marchés ?
           </p>
         </div>
-      </section>
+      </div>
 
-      <section
-        className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 my-10 lg:mb-20 px-5 md:px-10"
-        style={{ backgroundImage: `url(${waveband})` }}
-      >
-        <h2 className="md:text-2xl text-xl text-center font-bold text-white  font-second mb-3 2xl:text-5xl 2xl:mb-12">
-          NOUS SOMMES LÀ POUR VOUS ALORS N’HÉSITEZ PLUS !
-        </h2>
-        <div className="flex items-center">
-          <button
-            onClick={() =>
-              window.open(
-                "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20",
-                "_blank",
-                "noopener,noreferrer"
-              )
-            }
-            className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-2xl text-sm 2xl:text-4xl hover:scale-105  duration-500 2xl:py-5  shadow-md shadow-gray-900"
-          >
-            CONTACTEZ-NOUS
-          </button>
+      <div>
+        <div
+          className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 my-10 lg:mb-20 px-5 md:px-10"
+          style={{ backgroundImage: `url(${waveband})` }}
+        >
+          <h2 className="md:text-2xl text-xl text-center font-bold text-white  font-second mb-3 2xl:text-5xl 2xl:mb-12">
+            NOUS SOMMES LÀ POUR VOUS ALORS N’HÉSITEZ PLUS !
+          </h2>
+          <div className="flex items-center">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://api.whatsapp.com/send?phone=221785395220&text=Bonjour%20GDA,%20",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+              className="bg-primary text-white font-bold px-6 py-3 rounded-xl md:text-xl text-sm 2xl:text-4xl hover:scale-105  duration-500 2xl:py-5  shadow-md shadow-gray-900"
+            >
+              CONTACTEZ-NOUS
+            </button>
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
