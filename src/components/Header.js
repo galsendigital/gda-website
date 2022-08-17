@@ -12,7 +12,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <section>
-      <div className="flex w-full z-10 mx-auto fixed top-0 backdrop-blur-3xl">
+      <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-1">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <div>
