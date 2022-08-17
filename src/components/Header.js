@@ -12,11 +12,11 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <section>
-      <div className="flex w-full z-10 mx-auto fixed top-0 bg-background">
+      <div className="flex w-full z-10 mx-auto fixed top-0 backdrop-blur-3xl">
         <div className="flex justify-between items-center w-10/12 sm:w-11/12 mx-auto py-1">
           <nav className="DESKTOP-MENU flex space-x-10 ">
             <div>
-              <img src={logo} alt="logo" className="md:w-18" />
+              <img src={logo} alt="logo" />
             </div>
             <ul className="hidden space-x-8 lg:flex items-center uppercase text-xl font-bold 2xl:text-2xl">
               <li>
@@ -51,7 +51,7 @@ const Header = () => {
                   "noopener,noreferrer"
                 )
               }
-              className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-2xl shadow-md shadow-gray-400"
+              className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-2xl"
             >
               CONTACTEZ-NOUS{" "}
             </button>
@@ -137,11 +137,11 @@ const Header = () => {
       </div>
 
       <div
-        className="bg-no-repeat bg-cover md:bg-center w-full"
+        className="bg-no-repeat bg-cover md:bg-center w-full "
         style={{ backgroundImage: `url(${wave})` }}
       >
-        <div className="flex flex-col lg:flex-row uppercase lg:items-start  lg:justify-between w-11/12 mx-auto -mb-4">
-          <div className="lg:w-6/12 lg:mt-10 w-12/12">
+        <div className="flex flex-col lg:flex-row uppercase lg:items-center  lg:justify-between w-11/12 mx-auto -mb-4">
+          <div className="lg:w-6/12 w-12/12">
             <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-5xl">
               Soigner l'image des entreprises sénégalaises sur le web
             </h1>
@@ -159,7 +159,7 @@ const Header = () => {
                     "noopener,noreferrer"
                   )
                 }
-                className="bg-primary text-white font-bold px-5 py-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md hidden lg:block 2xl:text-2xl shadow-md shadow-gray-900"
+                className="bg-primary text-white font-bold px-5 py-3 mt-3 rounded-xl transform hover:scale-105 hover:bg-secondary  duration-500 lg:text-md  lg:block 2xl:text-2xl shadow-md shadow-gray-900"
               >
                 CONTACTEZ-NOUS{" "}
               </button>

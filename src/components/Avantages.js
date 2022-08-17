@@ -10,7 +10,7 @@ import waveband from "../assets/wave-band.png";
 const Avantages = () => {
   return (
     <div id="avantages">
-      <section className="pt-10 md:pt-20 flex items-center justify-center w-11/12 mx-auto">
+      <section className="py-10 md:pt-20 flex items-center justify-center w-11/12 mx-auto">
         <img
           src={dotted}
           alt="dotted-line"
@@ -29,7 +29,7 @@ const Avantages = () => {
         />
       </section>
 
-      <section className="space-y-10 xl:space-y-0 mt-10 flex flex-col items-center w-11/12 mx-auto  xl:flex-row xl:justify-between lg:items-center mb-24 mt-14">
+      <section className="space-y-10 xl:space-y-0  flex flex-col items-center w-11/12 mx-auto  xl:flex-row xl:justify-between lg:items-center pb-">
         <div className="box">
           <div className="flex justify-between mb-10">
             <h3 className="font-bold xl:text-xl 2xl:text-3xl">
@@ -82,7 +82,7 @@ const Avantages = () => {
       </section>
 
       <section
-        className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 mb-20 lg:mb-20 px-5 md:px-10"
+        className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 my-10 lg:mb-20 px-5 md:px-10"
         style={{ backgroundImage: `url(${waveband})` }}
       >
         <h2 className="md:text-2xl text-xl text-center font-bold text-white  font-second mb-3 2xl:text-5xl 2xl:mb-12">
