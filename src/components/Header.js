@@ -60,7 +60,7 @@ const Header = () => {
         <nav
           className={`${
             isNavOpen
-              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-0 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700 "
+              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-0 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700"
               : "disableNav flex items-center sm:justify-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-700"
           }`}
         >
@@ -82,7 +82,7 @@ const Header = () => {
             </svg>
           </div>
 
-          <ul className="space-y-7 text-xl text-background ">
+          <ul className="space-y-10 text-xl text-background text-center flex flex-col   w-full ">
             <li>
               <a
                 href="#accueil"
