@@ -83,7 +83,7 @@ const Avantages = () => {
 
       <div>
         <div
-          className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-20 my-10 lg:mb-20 px-5 md:px-10"
+          className="bg-no-repeat bg-cover bg-center flex items-center flex-col py-28 my-10 lg:mb-20 px-5 md:px-10 2xl:py-48 w-full h-full"
           style={{ backgroundImage: `url(${waveband})` }}
         >
           <h2 className="md:text-2xl text-xl text-center font-bold text-white  font-second mb-3 2xl:text-5xl 2xl:mb-12">
