@@ -10,9 +10,11 @@ const App = () => {
   let [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+    window.onload = () => {
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+    };
   }, []);
 
   return (
