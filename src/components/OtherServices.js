@@ -24,7 +24,7 @@ const OtherServices = () => {
                 GRAPHISME
               </h3>
               <p className="text-xs md:text-sm font-third text-center 2xl:text-xl">
-                (LOGO, CARTES DE VISITE, AFFICHE ETC.)
+                LOGO, CARTES DE VISITE, AFFICHE ETC.
               </p>
             </div>
           </div>
