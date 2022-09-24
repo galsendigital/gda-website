@@ -11,20 +11,13 @@ const App = () => {
 
   useEffect(() => {
     window.onload = () => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 2000);
+      setLoading(false);
     };
   }, []);
 
   return (
     <div>
-      {loading ? (
-        <div className="h-[100vh] flex justify-center items-center bg-primary">
-          <BarLoader size={30} color="#ffffff" loading={loading} />
-        </div>
-      ) : (
-        <div
+      <div
           id="accueil"
           className="overflow-hidden font-first pt-28 bg-background"
         >
@@ -33,7 +26,6 @@ const App = () => {
           <Avis />
           <OtherServices />
         </div>
-      )}
     </div>
   );
 };
