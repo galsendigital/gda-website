@@ -26,7 +26,7 @@ const App = () => {
       ) : (
         <div
           id="accueil"
-          className="overflow-hidden font-first pt-28 2xl:pt-40  bg-background"
+          className="overflow-hidden font-first pt-28 bg-background"
         >
           <Header />
           <Avantages />

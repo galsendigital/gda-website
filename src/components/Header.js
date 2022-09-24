@@ -1,10 +1,11 @@
 import React from "react";
 
 import logo from "../assets/logo-gda.svg";
-import wave from "../assets/wave.svg";
+//import wave from "../assets/wave.svg";
 import ordinateur from "../assets/ordinateur.png";
 import homme from "../assets/homme.png";
 import femme from "../assets/femme.png";
+import "./../css/general.css";
 
 import { useState } from "react";
 
@@ -58,11 +59,10 @@ const Header = () => {
           </div>
         </div>
         <nav
-          className={`${
-            isNavOpen
-              ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-0 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700"
-              : "disableNav flex items-center sm:justify-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-700"
-          }`}
+          className={`${isNavOpen
+            ? "activeNav flex items-center sm:justify-center lg:hidden fixed -right-0 px-10  top-0 w-[100vw]  z-10  bg-primary h-[100vh]  uppercase font-bold translate-x-0 opacity-1 duration-700"
+            : "disableNav flex items-center sm:justify-center lg:hidden fixed  top-0 -right-96 w-[100vw] bg-background h-[100vh] uppercase font-bold translate-x-full opacity-0 duration-700"
+            }`}
         >
           <div
             className="absolute top-3 right-[2%]"
@@ -136,10 +136,30 @@ const Header = () => {
         </div>
       </div>
 
-      <div
-        className="bg-no-repeat bg-cover md:bg-center w-full "
-        style={{ backgroundImage: `url(${wave})` }}
-      >
+      <div id="hero-section" className="bg-no-repeat bg-cover md:bg-center w-full">
+        <div className="w-full hero-bg">
+          <svg className="w-full" viewBox="0 0 1440 391" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g >
+              <path d="M0 391V163.5C75 176.5 196.428 350.084 488 298C638.5 271.116 743 217.5 885.5 63.9999C1031.13 -92.8689 1339.5 134.5 1440 134.5V391H0Z" fill="url(#paint0_linear_178_406)" />
+            </g>
+            <defs>
+              <filter id="filter0_d_178_406" x="-4" y="0.807617" width="1448" height="390.193" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset dy="-4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_178_406" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_178_406" result="shape" />
+              </filter>
+              <linearGradient id="paint0_linear_178_406" x1="719.75" y1="-264.552" x2="719.75" y2="391" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#210124" />
+                <stop offset="1" stop-color="#1B9AAA" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
         <div className="flex flex-col lg:flex-row uppercase lg:items-center  lg:justify-between w-11/12 xl:w-4/5 mx-auto -mb-4 2xl:h-[70vh]">
           <div className="lg:w-6/12 w-12/12">
             <h1 className="flex font-bold md:text-4xl text-2xl leading-normal md:mb-6 mb-2 2xl:text-5xl">
